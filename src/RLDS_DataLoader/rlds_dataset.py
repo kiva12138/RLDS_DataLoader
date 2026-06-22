@@ -102,7 +102,7 @@ def compute_or_load_statistics(
         with cache.open("w") as f:
             json.dump(stats, f)
     except OSError:
-        fallback = Path.home() / ".cache" / "rl_vla_agi" / cache.name
+        fallback = Path.home() / ".cache" / "RLDS_DataLoader" / cache.name
         fallback.parent.mkdir(parents=True, exist_ok=True)
         with fallback.open("w") as f:
             json.dump(stats, f)

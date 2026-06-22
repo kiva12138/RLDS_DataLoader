@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import numpy as np
 
-from rldsdataloader.rlds_dataset import default_batch_transform, iter_chunks
+from RLDS_DataLoader.rlds_dataset import default_batch_transform, iter_chunks
 
 
 def test_history_and_future_padding() -> None:

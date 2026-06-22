@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "rldsdataloader"
+name = "RLDS_DataLoader"
 version = "0.1.0"
 description = "A lightweight TensorFlow-free RLDS dataloader for PyTorch"
 readme = "README.md"
@@ -32,3 +32,4 @@ where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+pythonpath = ["src"]

@@ -10,7 +10,7 @@ from typing import Any
 import torch
 from torch.utils.data import DataLoader
 
-from rldsdataloader import OXE_NAMED_MIXTURES, RLDSDataset
+from RLDS_DataLoader import OXE_NAMED_MIXTURES, RLDSDataset
 
 
 def parse_args() -> argparse.Namespace:

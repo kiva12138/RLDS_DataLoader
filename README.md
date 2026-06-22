@@ -33,7 +33,7 @@ other datasets require a small dataset config and standardization function.
 
 Python 3.10 or newer is required.
 
-**If you don't want to install, just copy the files under `src/` and use them directly.**
+**If you don't want to install, copy `src/RLDS_DataLoader/` into your project and import it directly.**
 
 ```bash
 git clone <YOUR_REPOSITORY_URL>
